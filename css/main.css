@@ -1,0 +1,274 @@
+/*Utility Class*/
+.hidden
+{
+	display: none;
+}
+z
+/*General Rules for Elements*/
+
+body
+{
+	font-family: 'latoregular', Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+  
+
+.container {
+  margin: 0px auto;
+  padding: 0px 15px 0 15px;
+  max-width: 1200px; 
+}
+
+/*Header and Nav*/
+#siteCon {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Home Body */
+
+#mainHeader
+{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 200px;
+}
+
+#traaLogo
+{
+  width: 125px;
+  height: 125px;
+  background-color: #666666;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+#hamMenu
+{
+  margin-bottom: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: #666666;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+#mainNav
+{
+  display: none;
+}
+
+#welcomeDiv
+{
+  width: 100%;
+  height: 200px;
+  background-color: #cccccc;
+  margin-top: 15px;
+}
+
+/* funding/suport */
+#businesHeader
+{
+  width: 100%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #cccccc;
+
+}
+
+#membershipInfo
+{
+  width: 80%;
+  height: 380px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cccccc;
+}
+
+#fundrasingInfo
+{
+  width: 80%;
+  height: 380px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cccccc;
+}
+
+/* Local Business Logos */
+
+.businesSuport
+{
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.businesImg
+{
+  width: 266px;
+  height: 150px;
+  margin: auto;
+  background-color: black;
+}
+
+.businesCopy
+{
+  width: 266px;
+  height: 200px;
+  margin: auto;
+  background-color: #cccccc;
+}
+
+/* footer */
+#mainFooter
+{
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
+
+@media screen and (min-width: 414px) {
+
+
+#membershipInfo
+{
+  width: 330px;
+  height: 380px;
+  background-color: #cccccc;
+}
+
+#fundrasingInfo
+{
+  width: 330px;
+  height: 380px;
+  margin-top: 15px;
+  background-color: #cccccc;
+}
+
+}
+
+
+@media screen and (min-width: 694px) {
+
+#hamMenu
+{
+  display: none
+}
+
+#mainHeader
+{
+  display: block;
+}
+
+#mainNav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 43px;
+  background-color: grey;
+}
+
+#mainNav ul
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#mainNav ul li a
+{
+  display: block;
+  width: 100px;
+  background-color: #666666;
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#suportDiv
+{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#membershipInfo
+{
+  width: 330px;
+  height: 380px;
+  background-color: #cccccc;
+}
+
+#fundrasingInfo
+{
+  width: 330px;
+  height: 380px;
+  margin-top: 15px;
+  background-color: #cccccc;
+}
+
+#mainFooter
+{
+  width: 100%;
+  height: 188px;
+  background-color: grey;
+}
+
+
+}
+
+@media screen and (min-width: 864px) {
+#businesGroup1
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#businesGroup2
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.businesSuport
+{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.businesImg
+{
+  width: 266px;
+  height: 150px;
+  margin: auto;
+  background-color: black;
+}
+
+.businesCopy
+{
+  width: 266px;
+  height: 200px;
+  margin: auto;
+  background-color: #cccccc;
+}
+
+
+}
+
+
+
