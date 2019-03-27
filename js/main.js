@@ -1,16 +1,6 @@
-(function(){
-	"use strict";
-	
-	console.log("fired");
+(() => {
+let lucas = "Marco";
 
-	var button = document.querySelector("#button");
-	var burgerCon = document.querySelector("#burgerCon");
+console.log(`${lucas}), JavaScript is linked up!`);
 
-	function hamburgerMenu() {
-		burgerCon.classList.toggle("slideToggle");
-		button.classList.toggle("expanded");
-	}
-
-	button.addEventListener("click", hamburgerMenu, false);
-		
 })();
